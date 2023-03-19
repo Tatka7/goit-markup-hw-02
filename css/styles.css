@@ -1,0 +1,230 @@
+/**------- Common rules -------**/
+:root {
+    --primary-brand-color-iris: #4d5ae5;
+    --hovered-color-ocean: #404bbf;
+    --title-color-navy-blue: #2e2f42;
+    --brand-text-color-slate: #434455;
+    --background-color-white: #ffffff;
+    --card-background-color-cloud: #f4f4fd;
+    /* --success-color-green: #31d0aa;
+    --subtle-color-light-slate: #8e8f99;
+    --border-color-cornflower: #e7e9fc;
+    --overlay-color-navy-blue-modal: #2e2f42;
+    --hero-background-color-grey: #2e2f42;
+    --modal-background-color-dairy: #fcfcfc; */
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    font-style: normal;
+    background-color: var(--background-color-white);
+    color: var(--brand-text-color-slate);
+}
+
+.header-logo,
+.footer-logo {
+    font-family: 'Raleway', sans-serif;
+    list-style: none;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 1.17;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+    text-decoration: none;
+    color: var(--title-color-navy-blue);
+}
+
+.title {
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-align: center;
+    color: var(--title-color-navy-blue);
+}
+
+.subtitle {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+    letter-spacing: 0.02em;
+    color: var(--title-color-navy-blue);
+}
+
+.text {
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--brand-text-color-slate);
+}
+
+.button {
+    font-family: inherit;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    /*align-items: center;*/
+    letter-spacing: 0.04em;
+    text-decoration: none;
+    text-transform: none;
+    cursor: pointer;
+}
+
+.link {
+    text-decoration: none;
+}
+
+.list {
+    list-style: none;
+}
+
+/** --------- Header --------- */
+/* .nav-link {} */
+
+.header-logo {
+    color: var(--primary-brand-color-iris);
+}
+
+.dark-logo {
+    color: var(--title-color-navy-blue);
+}
+
+.nav-list .link:hover,
+.nav-list .link:focus {
+    color: var(--hovered-color-ocean);
+}
+
+/* .nav-item {}*/
+
+.nav-link {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    color: var(--title-color-navy-blue);
+}
+
+.contacts {
+    font-style: normal;
+}
+
+/*.contacts-item {} */
+
+.contacts-link {
+    font-style: normal;
+    font-size: 16px;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    cursor: pointer;
+    color: var(--brand-text-color-slate);
+}
+.contacts-link:hover,
+.contacts-link:focus {
+    color: var(--hovered-color-ocean);
+}
+
+/** --------- Hero --------- */
+
+.section-hero {
+    text-decoration: none;
+    background-color: var(--title-color-navy-blue);
+}
+
+.hero-title {
+    font-size: 56px;
+    line-height: 1.07;
+    text-align: center;
+    color: var(--background-color-white);
+}
+
+.hero-button  {
+    color: var(--background-color-white);
+    background-color: var(--primary-brand-color-iris);
+}
+
+.button:hover,
+.button:focus {
+    color: var(--background-color-white);
+    background-color: var(--hovered-color-ocean);
+}
+
+/** --------- Features --------- */
+
+/*.features-title {} 
+.features-item {}
+.features-subtitle {}
+.features-text {}*/
+
+/** --------- Services --------- */
+.services-title {
+    text-transform: capitalize;
+}
+
+/*.services-item {} */
+
+/** --------- Team --------- */
+
+.team-section {
+    background-color: var(--card-background-color-cloud);
+}
+
+.team-title {
+    text-transform: capitalize;
+}
+
+.team-item {
+    background-color: var(--background-color-white);
+} 
+
+/*.team-subtitle {}
+.team-text {}*/
+
+
+/** --------- Footer --------- */
+
+.page-footer{
+    background-color: var(--title-color-navy-blue);
+}
+
+.footer-logo {
+    color: var(--primary-brand-color-iris);
+}
+
+.logo-light {
+    color: var(--card-background-color-cloud);
+}
+
+.footer-text {
+    color: var(--card-background-color-cloud);
+}
+
+/*? --------- Portfolio --------- */
+/** --------- Example filter --------- */
+
+/*.example-title {}
+.filter-item {}*/
+
+.filter-button {
+    color: var(--primary-brand-color-iris);
+    background: var(--card-background-color-cloud);
+}
+
+.filter-button:hover,
+.filter-button:focus {
+    color: var(--background-color-white);
+    background: var(--hovered-color-ocean);
+}
+
+/** --------- Example --------- */
+
+/*.example {}
+.example-title {} 
+.example-item {}
+.example-link {}
+.example-subtitle {}
+.example-text {}  */
+
+
+
+
